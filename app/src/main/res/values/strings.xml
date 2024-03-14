@@ -17,6 +17,7 @@
     <string name="third">третий</string>
     <string name="button_row_screen">контейнер Row</string>
     <string name="button_column_screen">контейнер Column</string>
+    <string name="button_box_screen">контейнер Box</string>
 
 
 </resources>
