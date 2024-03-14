@@ -1,8 +1,7 @@
 package com.raywenderlich.android.lab1.screens
 
-import androidx.compose.foundation.layout.Arrangement
+
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -17,13 +16,8 @@ import com.raywenderlich.android.lab1.router.Screen
 
 @Composable
 fun BoxScreen(){
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ){
-        MyBox()
-    }
+    MyBox()
+
     BackButtonHandler {
         FundamentalsRouter.navigateTo(Screen.Navigation)
     }

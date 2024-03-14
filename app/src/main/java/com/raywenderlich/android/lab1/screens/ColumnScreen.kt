@@ -15,13 +15,8 @@ import com.raywenderlich.android.lab1.router.Screen
 
 @Composable
 fun ColumnScreen(){
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ){
-        MyColumn()
-    }
+            MyColumn()
+
 
 
     BackButtonHandler {

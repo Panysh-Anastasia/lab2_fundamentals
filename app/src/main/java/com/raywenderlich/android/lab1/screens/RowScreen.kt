@@ -1,7 +1,6 @@
 package com.raywenderlich.android.lab1.screens
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.Text
@@ -19,14 +18,7 @@ import com.raywenderlich.android.lab1.router.Screen
 val  THREE_ELEMENT_LIST = listOf(R.string.first, R.string.second, R.string.third )
 @Composable
 fun RowScreen(){
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ){
-        MyRow()
-    }
-
+    MyRow()
 
     BackButtonHandler {
         FundamentalsRouter.navigateTo(Screen.Navigation)
