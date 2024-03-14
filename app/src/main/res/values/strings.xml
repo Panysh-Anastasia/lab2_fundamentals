@@ -19,6 +19,9 @@
     <string name="button_column_screen">Контейнер Column</string>
     <string name="button_box_screen">Контейнер Box</string>
     <string name="button_surface_screen">Контейнер Surface</string>
+    <string name="button_scaffold_screen">Контейнер Scaffold</string>
+    <string name="menu">меню</string>
+    <string name="compose_app">MyComposeApp</string>
 
 
 </resources>
